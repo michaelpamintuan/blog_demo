@@ -18,7 +18,7 @@
                 No notification yet.
             </li>
         <% end %>
-        <% @read.each do |notifications| %>
+        <% @read.each do |notification| %>
             <%= render 'layouts/notification', notification: notification %>
             <% end %>
     </ul>
